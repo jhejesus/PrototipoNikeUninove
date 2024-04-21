@@ -160,8 +160,12 @@ header>nav>a,
 /* Botões de pesquisa, adicionar item, editar e deletar */
 
 .btn-actions{
-  display: flex;
-  padding-left: 1030px;
+   display: flex;
+  justify-content: flex-end;
+  gap: 5px;
+  padding-top: 10px;
+  padding-bottom: 4px;
+  padding-left: 860px;
 }
 
 .btn-actions {
