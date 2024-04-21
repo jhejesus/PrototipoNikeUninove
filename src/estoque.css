@@ -165,16 +165,7 @@ header>nav>a,
   gap: 5px;
   padding-top: 10px;
   padding-bottom: 4px;
-  padding-left: 1030px;
-}
-
-.btn-actions {
-  display: flex;
-  justify-content: flex-end;
-  gap: 5px;
-  padding-top: 10px;
-  padding-bottom: 4px;
-  padding-right: 30px;
+  padding-left: 860px;
 }
 
 .group-table {
