@@ -1,0 +1,174 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+header,
+#cabecalho {
+  background-color: #4e4e4e;
+  color: #bebfc5;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 8px;
+  padding-bottom: 4px;
+  font-weight: 500;
+}
+
+header>a,
+header>nav>a,
+#cabecalho {
+  color: #a4a5a9;
+  text-decoration: none;
+  align-items: center;
+  word-spacing: 40px;
+  padding-left: 40px;
+  padding-right: 0px;
+}
+
+#logonike {
+  font-size: 20px;
+  display: block;
+  justify-content: center;
+  font-weight: 800;
+  padding-top: 4px;
+}
+
+#logonike>span {
+  color: #ffff;
+  letter-spacing: 0.3em;
+}
+
+.title {
+  letter-spacing: 1px;
+  padding-top: 10px;
+  padding-left: 70px;
+  font-weight: 700;
+}
+
+.main{
+  padding-top: 100px;
+  
+}
+
+.main, .card1, .card2, .card3{
+  display: flex;
+  justify-content: center;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+
+/* cards */
+
+.project-info {
+    padding: 80px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    top: -50px;
+    width: 100%;
+    
+  }
+  
+  #card1, #card2, #card3 {
+    text-decoration: none;
+    color:  #bebfc555;
+  }
+
+ 
+
+  .project-title {
+    font-weight: 500;
+    font-size: 1.5em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #a4a5a9;
+    display: block;
+    
+  }
+  
+  .lighter {
+    font-size: 0.8em;
+    padding-right: 10px;
+    padding-top: 60px;
+    text-decoration: none;
+  }
+  
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: block;
+  }
+  
+  .tag {
+    font-weight: lighter;
+    color: grey;
+    padding-top: 10px;
+    display: flex;
+  }
+
+  .img{
+    width: 100%;
+    border: 1px solid #4e4e4e49;
+    border-radius: 20px;
+    box-shadow: rgb(40, 39, 39) 0px 50px 100px -10px
+  }
+  
+  /*DELETE THIS TWO LINE*/
+  .delete {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+  }
+  
+  .card-img div {
+    width: 90%;
+    
+  }
+  /*IF USING IMAGES*/
+  
+  .card {
+    background-color: #4e4e4e;
+    color:  #bebfc5;
+    width: 300px;
+    max-height: 330px;
+    border-radius: 8px;
+    box-shadow: rgb(40, 39, 39) 0px 50px 100px -20px,
+      rgba(222, 221, 221, 0.625) 0px 30px 60px -30px;
+  }
+  
+  .card-img {
+    position: relative;
+    top: -20px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Change the .card-img div to .card-img img to use img*/
+  .card-img a,
+  .card-img div {
+    height: 150px;
+    width: 90%;
+    /* Change this width here to change the width of the color/image */
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+  
+  .card-imgs {
+    transition: all 0.5s;
+    
+  }
+  

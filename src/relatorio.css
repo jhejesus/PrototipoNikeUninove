@@ -1,0 +1,85 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  header,
+  #cabecalho {
+    background-color: #4e4e4e;
+    color: #bebfc5;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 8px;
+    padding-bottom: 4px;
+    font-weight: 500;
+  }
+  
+  header>a,
+  header>nav>a,
+  #cabecalho {
+    color: #a4a5a9;
+    text-decoration: none;
+    align-items: center;
+    word-spacing: 40px;
+    padding-left: 40px;
+    padding-right: 0px;
+  }
+  
+  #logonike {
+    font-size: 20px;
+    display: block;
+    justify-content: center;
+    font-weight: 800;
+    padding-top: 4px;
+  }
+  
+  #logonike>span {
+    color: #ffff;
+    letter-spacing: 0.3em;
+  }
+
+  #title {
+    letter-spacing: 1px;
+    padding-top: 10px;
+    padding-left: 70px;
+    font-weight: 700;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+ 
+}
+
+.box {
+    width: 580px; /* largura desejada da caixa */
+    height: 380px; /* altura desejada da caixa */
+    border: 1px solid #878787; /* borda da caixa */
+    border-radius: 30px;
+    overflow: hidden; /* ocultar parte da imagem que excede os limites da caixa */
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    margin: 30px;
+}
+
+.box img {
+    width: 85%; /* garantir que a imagem ocupe toda a largura da caixa */
+    height: auto; /* manter a proporção original da imagem */
+    display: block; /* garantir que a imagem não tenha margens extras */
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #d7cbcb;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(182, 171, 171, 0.338); /* sombra ao redor da caixa */
+}

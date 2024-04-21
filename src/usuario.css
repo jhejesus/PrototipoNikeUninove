@@ -1,0 +1,102 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  header,
+  #cabecalho {
+    background-color: #4e4e4e;
+    color: #bebfc5;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 8px;
+    padding-bottom: 4px;
+    font-weight: 500;
+  }
+  
+  header>a,
+  header>nav>a,
+  #cabecalho {
+    color: #a4a5a9;
+    text-decoration: none;
+    align-items: center;
+    word-spacing: 40px;
+    padding-left: 40px;
+    padding-right: 0px;
+  }
+  
+  #logonike {
+    font-size: 20px;
+    display: block;
+    justify-content: center;
+    font-weight: 800;
+    padding-top: 4px;
+  }
+  
+  #logonike>span {
+    color: #ffff;
+    letter-spacing: 0.3em;
+  }
+  
+  .title {
+    letter-spacing: 1px;
+    padding-top: 10px;
+    padding-left: 70px;
+    font-weight: 700;
+}
+
+.dados{
+    border: 1px solid #4e4e4e4d;
+    border-radius: 30px;
+    padding:10px;
+    width: 700px; /* ou o tamanho que preferir */
+    position: absolute; /* Define a posição absoluta */
+    top: 50%; /* Ajusta o topo para 50% da altura da página */
+    left: 50%; /* Ajusta a margem esquerda para 50% da largura da página */
+    transform: translate(-50%, -50%); /* Translada a caixa para o centro */
+    text-align: center; /* Alinha o conteúdo no centro */
+    position: absolute;
+    background-color: #4e4e4e;
+    
+}
+
+h2{
+    color: #cdcdcd;
+    font-size: 2em;
+    margin-bottom: 4px;
+    margin-top: 10px;
+}
+
+h3{
+    color: #8f8f8f;
+}
+
+span{
+    color: #0d0e16;
+    text-align: left;
+    margin-right: 14px;
+}
+
+p{
+    color: #c6bbbb;
+    text-align: left;
+    margin-top: 5px;
+}
+#dados{
+   
+    padding-left: 30px;
+    text-align: center;
+}
+
+.fotouser{
+    padding-top: 30px;
+    text-align: center;
+}
